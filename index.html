@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Alex Morgan's student portfolio: projects, skills, and a little about me.">
+  <title>Alex Morgan — Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Alex Morgan, home"><span class="brand-mark">A</span><span>alex<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span class="status-dot"></span> STUDENT · BUILDER · CURIOUS HUMAN</div>
+        <h1>Hi, I’m Alex.<br>I make <span class="blue-text">ideas real.</span></h1>
+        <p class="hero-intro">A college student exploring the space where thoughtful design meets useful technology. Currently learning, making, and figuring it out as I go.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a><a class="text-link" href="#about">A little about me <span aria-hidden="true">→</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>Based on campus · Open to new ideas</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract blue decorative shapes" role="img">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-card card-back"><span class="tiny-label">CURRENT FOCUS</span><span class="card-back-title">Learning by<br>making things.</span><span class="card-back-icon">✳</span></div>
+        <div class="art-card card-front"><div class="avatar-shape"><span>A</span></div><div><span class="tiny-label">STUDENT PORTFOLIO</span><strong>Curiosity in<br>progress.</strong></div><span class="sparkle">✦</span></div>
+        <span class="floating-tag tag-top">✳ &nbsp; always learning</span><span class="floating-tag tag-bottom">made with curiosity <span>↗</span></span>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-cue-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid reveal">
+        <div class="section-heading"><span class="eyebrow">01 / A LITTLE INTRO</span><h2>Curious by nature.<br><span class="muted-heading">Student by day.</span></h2></div>
+        <div class="about-copy"><p class="large-copy">I’m Alex, a college student who likes turning “what if?” into something you can actually click, read, or play.</p><p>I’m building my skills one project at a time—from the first sketch to the final detail. Outside class, you’ll find me collecting new music, exploring the campus coffee spots, or learning something just because it caught my attention.</p><div class="about-facts"><div><span class="fact-number">01</span><span>Currently studying<br><strong>Computer Science</strong></span></div><div><span class="fact-number">02</span><span>Most likely to say<br><strong>“Let me try that.”</strong></span></div></div></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container reveal"><div class="section-top"><div class="section-heading"><span class="eyebrow">02 / THINGS I’M LEARNING</span><h2>A toolkit in<br><span class="muted-heading">the making.</span></h2></div><p class="section-aside">Still growing, always practicing. Here are a few of the tools and ideas I’m exploring right now.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon icon-blue">&lt;/&gt;</div><span class="skill-index">01</span><h3>Web foundations</h3><p>Building the structure and style behind simple, useful web pages.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+          <article class="skill-card"><div class="skill-icon icon-violet">✳</div><span class="skill-index">02</span><h3>Creative thinking</h3><p>Turning rough ideas into clear layouts, flows, and experiences.</p><div class="tag-list"><span>Figma</span><span>Wireframes</span><span>Visuals</span></div></article>
+          <article class="skill-card"><div class="skill-icon icon-mint">⌘</div><span class="skill-index">03</span><h3>Problem solving</h3><p>Breaking big questions into smaller steps I can work through.</p><div class="tag-list"><span>Research</span><span>Iteration</span><span>Curiosity</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container reveal"><div class="section-top"><div class="section-heading"><span class="eyebrow">03 / CLASS & SIDE QUESTS</span><h2>Small projects.<br><span class="muted-heading">Big “aha” moments.</span></h2></div><p class="section-aside">A few experiments from class and my own time. Each one taught me something new.</p></div>
+        <div class="projects-grid">
+          <article class="project-card project-mix"><div class="project-visual music-visual"><div class="music-disc"><div class="disc-center"></div></div><div class="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="track-pill"><span class="play-icon">▶</span><span><small>NOW PLAYING</small><strong>Late night / Focus</strong></span><span class="track-time">02:48</span></div><span class="visual-caption">A LITTLE SOUNDTRACK FOR EVERYTHING</span></div><div class="project-info"><div><span class="project-type">PERSONAL PROJECT · 2025</span><h3>My kind of mix</h3></div><span class="project-arrow">↗</span><p>A tiny interactive collection of the songs I keep coming back to while studying, walking, or doing absolutely nothing.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
+          <article class="project-card project-game"><div class="project-visual game-visual"><div class="game-top"><span>COLOR MATCH</span><span>ROUND 04 / 10</span></div><div class="game-prompt">Find the<br><strong>odd one out.</strong></div><div class="game-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="odd-dot"></i></div><span class="game-score">+100 <span>✦</span></span><span class="visual-caption">A QUICK BRAIN BREAK</span></div><div class="project-info"><div><span class="project-type">WEEKEND BUILD · 2025</span><h3>One more round</h3></div><span class="project-arrow">↗</span><p>A playful little color-spotting game. Simple rules, short rounds, and a surprising amount of “okay, one more try.”</p><div class="tag-list"><span>JavaScript</span><span>Logic</span><span>Play</span></div></div></article>
+          <article class="project-card project-campus"><div class="project-visual campus-visual"><div class="planner-window"><div class="planner-head"><span>MY WEEK</span><span>↗</span></div><div class="planner-row"><b>09<span>AM</span></b><i></i><span>Design studio</span></div><div class="planner-row active-row"><b>11<span>AM</span></b><i></i><span>Build something</span></div><div class="planner-row"><b>01<span>PM</span></b><i></i><span>Lunch with Sam</span></div><div class="planner-row"><b>03<span>PM</span></b><i></i><span>Study sprint</span></div></div><span class="visual-caption">A CALMER KIND OF PLANNER</span></div><div class="project-info"><div><span class="project-type">CLASS EXERCISE · 2025</span><h3>Campus flow</h3></div><span class="project-arrow">↗</span><p>A clean weekly planner concept for juggling classes, side projects, and the moments between them.</p><div class="tag-list"><span>Figma</span><span>UI design</span><span>Planning</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="container contact-grid reveal"><div><span class="eyebrow">04 / SAY HELLO</span><h2>Got an idea?<br><span class="muted-heading">I’m all ears.</span></h2><p class="contact-intro">Questions, collaborations, song recommendations—my inbox is open.</p><a class="email-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a></div><form class="contact-form" id="contact-form"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jane Smith" required><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="jane@example.com" required><label for="message">What’s on your mind?</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about it..." required></textarea><button class="button button-primary submit-button" type="submit">Send a message <span aria-hidden="true">↗</span></button><p class="form-note" id="form-note" aria-live="polite">This demo form shows a confirmation here; connect a form service to receive messages.</p></form></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">A</span><span>alex<span class="brand-dot">.</span></span></a><span class="footer-note">Made with curiosity & a little caffeine.</span><a class="back-top" href="#home">BACK TO TOP <span>↑</span></a><span class="copyright">© <span id="year">2025</span> Alex Morgan</span></div></footer>
+</body>
+</html>
